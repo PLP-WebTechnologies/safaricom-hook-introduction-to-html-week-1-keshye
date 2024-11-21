@@ -30,3 +30,55 @@ Use common HTML tags like h1, p, a, img, and ul or ol.
 Structure a webpage with semantic tags such as header, footer, nav, section, and article.
 Ensure the content is well-organized for readability and SEO.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage example with text, images, and links.">
+    <title>Simple Webpage Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Simple Webpage</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <article>
+        <h2>About This Page</h2>
+        <p>This is a simple webpage designed to showcase basic HTML structure. It includes various HTML elements such as headings, paragraphs, images, and links.</p>
+    </article>
+</section>
+
+<section id="gallery">
+    <h2>Image Gallery</h2>
+    <p>Here are some images:</p>
+    <ul>
+        <li><img src="image1.jpg" alt="Description of image 1" width="300"></li>
+        <li><img src="image2.jpg" alt="Description of image 2" width="300"></li>
+        <li><img src="image3.jpg" alt="Description of image 3" width="300"></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+    <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2023 My Simple Webpage. All rights reserved.</p>
+    <p><a href="https://www.example.com" target="_blank">Visit my blog</a></p>
+</footer>
+
+</body>
+</html>
